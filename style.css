@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    padding: 50px 0 50px 80px;
+}
+
+.backround{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+    object-position: top;
+    filter: hue-rotate(210deg);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.menu img {
+    width: 40px;
+    transition: 0.3s;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav a {
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.nav a:hover img {
+    transform: rotate(15deg) translateX(20px);
+}
+
+.header {
+    margin-left: 90px;
+}
+
+.header h1 {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.facts-left {
+ background-image: url(images/intro2.jpg);
+ width: 50%;
+ text-align: center;
+ color: white;
+ height: 300px;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 0px 20px 20px 0px;
+}
+
+.facts {
+    display: flex;
+    margin-top:  10%;
+}
+
+.facts-right ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    
+}
+
+.facts-right {
+    width: 50%;
+}
+
+.facts-right li {
+    background-color: #e5ffe5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.facts-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.information img {
+    width: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 18%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item p {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: max-content;
+}
+
+.card-1 {
+    background-image: url(images/plant0.jpg);
+}
+
+.card-2 {
+    background-image: url(images/plant1.jpg);
+}
+
+.card-3 {
+    background-image: url(images/plant2.jpg);
+}
+
+.card-4 {
+    background-image: url(images/plant3.jpg);
+}
+
+.card-5 {
+    background-image: url(images/plant4.jpg);
+}
+
+.abaut-title {
+    display: flex;
+    justify-content: center;
+}
+
+.abaut-title img {
+    width: 30px;
+}
+
+.abaut-content p {
+    width: 33%;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    background-size: cover;
+}
+
+.item-1 {
+    background-image: url(images/internet.jpg);
+}
+
+.item-2 {
+    background-image: url(images/events.jpg);
+}
+
+.item-3 {
+    background-image: url(images/friends.jpg);
+}
+
+.abaut-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+}
+
+.info-title img {
+    width: 30px;
+}
+
+.info-content {
+    display: flex; 
+}
+
+.info-left {
+    background-image: url(images/land0.jpg);
+    width: 50%;
+    background-size: cover;
+    border-radius: 0px 10px 10px 0px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-left img {
+    width: 100px;
+}
+
+.info-right {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-right p {
+    line-height: 30px;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-content input {
+    width: 50%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-content img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.contact-content button {
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
